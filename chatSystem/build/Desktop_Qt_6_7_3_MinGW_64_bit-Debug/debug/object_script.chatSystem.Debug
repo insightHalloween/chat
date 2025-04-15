@@ -1,0 +1,10 @@
+debug/main.o
+debug/loginform.o
+debug/mainwindow.o
+debug/onlineusersdialog.o
+debug/emojidialog.o
+debug/qrc_resources.o
+debug/moc_loginform.o
+debug/moc_mainwindow.o
+debug/moc_onlineusersdialog.o
+debug/moc_emojidialog.o

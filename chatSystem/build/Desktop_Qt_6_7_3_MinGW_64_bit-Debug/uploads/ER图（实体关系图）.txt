@@ -1,0 +1,59 @@
+erDiagram
+    USER {
+        int id PK
+        string username
+        string email
+        string password
+        datetime created_at
+        boolean is_admin
+    }
+
+    ADMIN {
+        int id PK
+        string username
+        string email
+        string password
+        datetime created_at
+    }
+
+    TASK {
+        int id PK
+        int user_id FK
+        string title
+        text description
+        int priority
+        datetime due_date
+        string status
+        datetime created_at
+    }
+
+    SCHEDULE {
+        int id PK
+        int user_id FK
+        string type
+        datetime start_time
+        datetime end_time
+        text notes
+    }
+
+    REMINDER {
+        int id PK
+        int task_id FK
+        datetime reminder_time
+        boolean is_sent
+    }
+
+    ANALYTICS {
+        int id PK
+        int user_id FK
+        int completed_tasks
+        int pending_tasks
+        float time_utilization
+        datetime last_update
+    }
+
+    ADMIN ||--o{ USER : manages
+    USER ||--o{ TASK : owns
+    USER ||--o{ SCHEDULE : manages
+    TASK ||--o{ REMINDER : has
+    USER ||--o{ ANALYTICS : generates

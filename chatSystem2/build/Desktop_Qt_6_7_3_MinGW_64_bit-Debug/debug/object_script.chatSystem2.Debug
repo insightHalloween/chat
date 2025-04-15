@@ -1,0 +1,11 @@
+debug/emojidialog.o
+debug/main.o
+debug/loginform.o
+debug/chatserver.o
+debug/mainwindow.o
+debug/onlineusersdialog.o
+debug/moc_emojidialog.o
+debug/moc_loginform.o
+debug/moc_chatserver.o
+debug/moc_mainwindow.o
+debug/moc_onlineusersdialog.o

@@ -1,0 +1,11 @@
+release/emojidialog.o
+release/main.o
+release/loginform.o
+release/chatserver.o
+release/mainwindow.o
+release/onlineusersdialog.o
+release/moc_emojidialog.o
+release/moc_loginform.o
+release/moc_chatserver.o
+release/moc_mainwindow.o
+release/moc_onlineusersdialog.o
