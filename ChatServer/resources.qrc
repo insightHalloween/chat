@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 <RCC>
     <qresource prefix="/">
         <file>styles.qss</file>
     </qresource>
+=======
+<RCC>
+    <qresource prefix="/">
+        <file>styles.qss</file>
+    </qresource>
+>>>>>>> 16fede4cd6a4bd7b12dba7ec4b7d3a784d44619e
 </RCC> 

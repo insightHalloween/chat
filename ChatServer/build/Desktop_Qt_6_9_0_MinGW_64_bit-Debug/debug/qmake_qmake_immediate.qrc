@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 <!DOCTYPE RCC><RCC version="1.0">
 <qresource prefix="/">
 <file alias="styles.qss">C:/Users/27116/Desktop/QT文件夹/ChatServer/styles.qss</file>
 </qresource>
 </RCC>
+=======
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="styles.qss">C:/Users/27116/Desktop/QT文件夹/ChatServer/styles.qss</file>
+</qresource>
+</RCC>
+>>>>>>> 16fede4cd6a4bd7b12dba7ec4b7d3a784d44619e
