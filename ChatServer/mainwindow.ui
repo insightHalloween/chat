@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="logTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>780</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+      background-color: white;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      padding: 8px;
+      font-family: Microsoft YaHei;
+      font-size: 12px;
+     }</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="statusLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>520</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+      color: #666666;
+      font-family: Microsoft YaHei;
+      font-size: 12px;
+     }</string>
+    </property>
+    <property name="text">
+     <string>聊天室在线人数：3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopServerButton">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>520</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+      background-color: #f2f2f2;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      color: #333333;
+      font-family: Microsoft YaHei;
+      font-size: 12px;
+     }
+     QPushButton:hover {
+      background-color: #e6e6e6;
+     }
+     QPushButton:pressed {
+      background-color: #d9d9d9;
+     }</string>
+    </property>
+    <property name="text">
+     <string>停止服务器</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="manageClientsButton">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>520</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>管理客户端</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
